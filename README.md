@@ -1,2 +1,5 @@
 # IoTHomeAutomation
-IoT Home Automation
+
+The project is a web based home automation system for controlling home appliances like fan, lights, tv, fridge, AC etc via a Raspberry PI. For this project I have concentrated on fans and bulbs only.  Iot is a broader concept used in home automation and smart systems now a days and a trending technology. Raspberry PI is a headless cost effective device that can operate on just a 5V power source and can control the home appliances.
+We have a web based UI, using which user can on/off the switch. The UI is built using HTML and CSS. For backend we are using php to write the status recieved from website on a txt file and read this status. Based on this status, ON or OFF, the result is displayed on web screen. Whereas Python is being used to send this status to Raspberry Pi to initate the on and off action.
+The motivation behind the same came from an instance when user forgets to switch off tv or AC in a heste and instead of coming home, user can just do the same using an app.
