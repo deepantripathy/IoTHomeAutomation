@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Home Automation</title>
+</head>
+<body>
+    <h1>IOT Home Automation</h1>
+    <div class="button-container">
+        <form action="buttonLight.php" method="POST">
+            <div>
+                <label for="Light">
+                    <span>
+                        Light controller
+                    </span>
+                    <input type="submit" name="onLight" id="onLight" value="Turn On Light">
+                    <input type="submit" name="offLight" id="offLight" value="Turn Off Light">
+                </label>
+            </div>
+        </form>
+        <form action="buttonFan.php" method="POST">
+            <div>
+                <label for="Fan">
+                    <span>
+                        Fan controller
+                    </span>
+                    <input type="submit" name="onFan" id="onFan" value="Turn On Fan">
+                    <input type="submit" name="offFan" id="offFan" value="Turn Off Fan">
+                </label>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
